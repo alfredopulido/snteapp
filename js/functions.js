@@ -1,7 +1,12 @@
 $(function(){
+	document.addEventListener("deviceready", onDeviceReady, false);
+	function onDeviceReady() {
+	    window.open = cordova.InAppBrowser.open;
+	}
+
 	$("a").click(function(ev){
 		ev.preventDefault();
-		var ref = cordova.InAppBrowser.open($(this).attr("href"), '_blank', 'location=yes'); 
+		var ref = window.open($(this).attr("href"), '_blank', 'location=yes'); 
 
 	});
 });
