@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.creaturi.snte"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>SNTE</name>
+
+  <description>
+      SNTE Beneficios
+  </description>
+
+  <author href="http://creaturi.com" email="uri@creaturi.com">
+      Creaturi diseño
+  </author>
+
+  <plugin name="com.stevenpartridge.inappbrowser" spec="1.4" source="pgb" />
+
+</widget>
