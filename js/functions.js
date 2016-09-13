@@ -1,9 +1,5 @@
 $(function(){
-	document.addEventListener("deviceready", onDeviceReady, false);
-	function onDeviceReady() {
-	    window.open = cordova.InAppBrowser.open;
-	    alert("device ready");
-	}
+	
 
 	$("a").click(function(ev){
 		ev.preventDefault();
