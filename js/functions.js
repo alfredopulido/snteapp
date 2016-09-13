@@ -8,6 +8,7 @@ $(function(){
 
 	$("a.linkexterno").click(function(ev){
 		ev.preventDefault();
-		var ref = window.open($(this).attr("href"), '_blank', 'location=yes'); 
+		//var ref = window.open($(this).attr("href"), '_blank', 'location=yes'); 
+		window.plugins.ChildBrowser.showWebPage($(this).attr("href"),  { showLocationBar: true });
 	});
 });
