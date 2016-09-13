@@ -8,6 +8,6 @@ $(function(){
 
 	$("a.linkexterno").click(function(ev){
 		ev.preventDefault();
-		var ref = window.open($(this).attr("href"), '_blank', 'location=yes'); 
+		var ref = window.open($(this).attr("href"), '_system', 'location=yes'); 
 	});
 });

@@ -17,7 +17,6 @@
       Creaturi diseño
   </author>
 
-  <!-- <plugin name="com.cordova.plugin.inappbrowser.with.loading.spinner" spec="1.0.13" source="pgb" />-->
   <plugin name="com.stevenpartridge.inappbrowser" spec="1.4" source="pgb" />
 
 </widget>
