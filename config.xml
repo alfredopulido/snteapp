@@ -19,4 +19,19 @@
 
   <plugin name="com.stevenpartridge.inappbrowser" spec="1.4" source="pgb" />
 
+  <icon src="images/icons/icon.png" />
+  <splash src="images/splash/splash.png" />
+
+  <!-- Android -->
+  <icon src="images/icons/ldpi.png" platform="android" qualifier="ldpi" />
+  <icon src="images/icons/mdpi.png" platform="android" qualifier="mdpi" />
+  <icon src="images/icons/hdpi.png" platform="android" qualifier="hdpi" />
+  <icon src="images/icons/xhdpi.png" platform="android" qualifier="xhdpi" />
+  <icon src="images/icons/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+
+  <splash src="ldpi.png" platform="android" qualifier="ldpi" />
+  <splash src="mdpi.png" platform="android" qualifier="mdpi" />
+  <splash src="hdpi.png" platform="android" qualifier="hdpi" />
+  <splash src="xhdpi.png" platform="android" qualifier="xhdpi" />
+
 </widget>
