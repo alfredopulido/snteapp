@@ -1,6 +1,6 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
-    //window.open = cordova.InAppBrowser.open;
+    window.open = cordova.InAppBrowser.open;
 }
 
 $(function(){
@@ -8,7 +8,6 @@ $(function(){
 
 	$("a.linkexterno").click(function(ev){
 		ev.preventDefault();
-		//var ref = window.open($(this).attr("href"), '_blank', 'location=yes'); 
-		window.plugins.ChildBrowser.showWebPage($(this).attr("href"),  { showLocationBar: true });
+		var ref = window.open($(this).attr("href"), '_blank', 'location=yes'); 
 	});
 });
