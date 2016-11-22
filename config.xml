@@ -17,7 +17,7 @@
       Creaturi diseño
   </author>
 
-  <plugin name="cordova-inappbrowser"  source=“npm”/>
+  <plugin name="cordova-inappbrowser"  source="npm"/>
 
   <icon src="images/icons/icon.png" />
   <splash src="images/splash/splash.png" />
