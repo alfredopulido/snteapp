@@ -17,7 +17,7 @@
       Creaturi diseño
   </author>
 
-  <plugin name="com.stevenpartridge.inappbrowser" spec="1.4" source="pgb" />
+  <plugin name="com.stevenpartridge.inappbrowser" spec="1.4" />
 
   <icon src="images/icons/icon.png" />
   <splash src="images/splash/splash.png" />
